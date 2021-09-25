@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap And The Grids: Grid One</title>
+    <title>Bootstrap And The Grids: Grid Eight</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -61,8 +61,21 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-
+       <div class="container-fluid h-100 minHeight">
+           <div class="row h-100 gy-2 row-cols-1 row-cols-md-2">
+               <div class="col col-md-12">
+                   <div class="bg-secondary h-100">Col One</div>
+               </div>
+               <div class="col col-md-4 order-last">
+                   <div class="bg-dark text-light h-100">Col Two</div>
+               </div>
+               <div class="col col-md-4">
+                   <div class="bg-secondary h-100">Col Three</div>
+               </div>
+               <div class="col col-md-4">
+                   <div class="bg-secondary h-100">Col Four</div>
+               </div>
+           </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
